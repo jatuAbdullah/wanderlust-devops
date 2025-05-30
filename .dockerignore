@@ -1,0 +1,4 @@
+data/.bash_history
+backend/data/*
+!backend/data/sample_posts.json
+

@@ -4,36 +4,40 @@ services:
     container_name: mongo
     image: mongo:latest
     volumes:
-      - ./backend/data:/data
+      - ./backend/data:/data/db
+      - ./backend/data/sample_posts.json:/sample_posts.json
     ports:
       - "27017:27017"
+
+  mongoimport:
+    image: mongo:latest
+    depends_on:
+      - mongodb
+    entrypoint: ["mongoimport", "--host", "mongodb", "--db", "wanderlust", "--collection", "posts", "--file", "/sample_posts.json", "--jsonArray"]
+    volumes:
+      - ./backend/data/sample_posts.json:/sample_posts.json
 
   backend:
     container_name: backend
     build: ./backend
     env_file:
-      - ./backend/.env.docker
-    ports:
-      - "5000:5000"
+      - ./backend/.env.sample
     depends_on:
       - mongodb
+    ports:
+      - "5000:5000"
+    environment:
+      MONGODB_URI: mongodb://mongo:27017/wanderlust
+      REDIS_URL: 127.0.0.1:6379
 
   frontend:
     container_name: frontend
     build: ./frontend
     env_file:
-      - ./frontend/.env.docker
+      - ./frontend/.env.sample
     ports:
       - "5173:5173"
 
-  redis:
-    container_name: redis
-    restart: unless-stopped
-    image: redis:7.0.5-alpine 
-    expose:
-        - 6379
-    depends_on:
-      - mongodb
-
 volumes:
   data:
+

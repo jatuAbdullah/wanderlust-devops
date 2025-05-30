@@ -1,0 +1,122 @@
+
+> frontend@0.0.0 dev
+> vite --host
+
+
+  VITE v4.5.0  ready in 218 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://172.31.43.103:5173/
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+
+> frontend@0.0.0 dev
+> vite --host
+
+Port 5173 is in use, trying another one...
+
+  VITE v4.5.0  ready in 218 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://172.31.43.103:5174/
+10:45:22 AM [vite] .env.sample changed, restarting server...
+10:45:22 AM [vite] .env.sample changed, restarting server...
+Port 5173 is in use, trying another one...
+10:45:22 AM [vite] server restarted.
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://172.31.43.103:5174/
+10:45:22 AM [vite] server restarted.
+10:46:16 AM [vite] .env.local changed, restarting server...
+10:46:16 AM [vite] .env.local changed, restarting server...
+10:46:16 AM [vite] server restarted.
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://172.31.43.103:5173/
+Port 5173 is in use, trying another one...
+10:46:16 AM [vite] server restarted.
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://172.31.43.103:5174/
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+
+> frontend@0.0.0 dev
+> vite --host
+
+Port 5173 is in use, trying another one...
+Port 5174 is in use, trying another one...
+
+  VITE v4.5.0  ready in 214 ms
+
+  ➜  Local:   http://localhost:5175/
+  ➜  Network: http://172.31.43.103:5175/
+10:51:13 AM [vite] .env.local changed, restarting server...
+10:51:13 AM [vite] .env.local changed, restarting server...
+10:51:13 AM [vite] .env.local changed, restarting server...
+10:51:13 AM [vite] server restarted.
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://172.31.43.103:5173/
+Port 5173 is in use, trying another one...
+10:51:13 AM [vite] server restarted.
+Port 5173 is in use, trying another one...
+Port 5174 is in use, trying another one...
+10:51:13 AM [vite] server restarted.
+
+  ➜  Local:   http://localhost:5175/
+  ➜  Network: http://172.31.43.103:5175/
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://172.31.43.103:5174/
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+10:51:56 AM [vite] .env.sample changed, restarting server...
+10:51:56 AM [vite] .env.sample changed, restarting server...
+10:51:56 AM [vite] .env.sample changed, restarting server...
+10:51:56 AM [vite] server restarted.
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://172.31.43.103:5173/
+Port 5173 is in use, trying another one...
+10:51:56 AM [vite] server restarted.
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://172.31.43.103:5174/
+Port 5173 is in use, trying another one...
+Port 5174 is in use, trying another one...
+10:51:56 AM [vite] server restarted.
+
+  ➜  Local:   http://localhost:5175/
+  ➜  Network: http://172.31.43.103:5175/
+10:52:12 AM [vite] .env.local changed, restarting server...
+10:52:12 AM [vite] .env.local changed, restarting server...
+10:52:12 AM [vite] .env.local changed, restarting server...
+Port 5173 is in use, trying another one...
+Port 5173 is in use, trying another one...
+10:52:12 AM [vite] server restarted.
+
+Port 5174 is in use, trying another one...
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://172.31.43.103:5174/
+10:52:12 AM [vite] server restarted.
+
+  ➜  Local:   http://localhost:5175/
+  ➜  Network: http://172.31.43.103:5175/
+10:52:12 AM [vite] server restarted.
+
+> frontend@0.0.0 dev
+> vite --host
+
+Port 5173 is in use, trying another one...
+Port 5174 is in use, trying another one...
+Port 5175 is in use, trying another one...
+Port 5176 is in use, trying another one...
+
+  VITE v4.5.0  ready in 296 ms
+
+  ➜  Local:   http://localhost:5177/
+  ➜  Network: http://172.31.43.103:5177/
